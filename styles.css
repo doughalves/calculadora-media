@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  background-image: url("https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2020/05/nota-quarentena-83-dos-professores-ainda-se-sentem-despreparados-para-ensino-virtual.jpg");
+  background-size: 100%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+}
+
+.page-logo {
+  background-color: gray;
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  background-color: gray;
+  width: 4%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.resultado {
+  margin-top: 5px;
+
+}
+.notas {
+  padding: 20px;
+  
+}
+.form-wrapper {
+  margin: 0 0 15px;
+  padding: 15px;
+}
+.form-wrapper input {
+  width: 125px;
+  display: inline;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+.form-wrapper button {
+  width: 300px;
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+            Calculadora de Média
+		</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+    <div class="container">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <h1 class="page-title">
+        Calculadora de média
+      </h1>
+      <h2>
+        <p class="page-subtitle">
+          Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <p>Lembre-se, para passar de ano sua média precisa ser maior que 7.00</p>
+      </h2>
+      <h3>
+        <p class="page-subtitle">Insira as notas que tirou a cada bimestre e descubra se você passou de ano</p>
+      </h3>
+      
+      <div class="notas">
+        <div class="form-wrapper">
+          <input type="text" id="primeiroBimestre" name="nota1" placeholder="✔ Nota 1º Bimestre">
+          <br>
+        <div class="form-wrapper">
+          <input type="text" id="segundoBimestre" name="nota2" placeholder="✔ Nota 2º Bimestre">
+          <br>
+        <div class="form-wrapper">
+          <input type="text" id="terceiroBimestre" name="nota3" placeholder="✔ Nota 3º Bimestre">
+          <br>
+        <div class="form-wrapper">
+          <input type="text" id="quartoBimestre" name="nota4" placeholder="✔ Nota 4º Bimestre"> <br>
+        <button onClick="adicionarNota()">Veja qual foi sua média</button>
+          <br>
+          <p>
+          <h2 class="resultado" id="aprovadoReprovado"></h2>
+          </p>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
